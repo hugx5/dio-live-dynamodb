@@ -1,34 +1,67 @@
 {
-    "Music": [
-        {
-            "PutRequest": {
-                "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Wasting Love"},
-                  "AlbumTitle": {"S": "Fear of the Dark Live"},
-                  "SongYear": {"S": "1992"}
-                }
-            }
-        },
-        {
-            "PutRequest": {
-                "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Weekend Warrior"},
-                  "AlbumTitle": {"S": "Fear of the Dark"},
-                  "SongYear": {"S": "1992"}
-                }
-            }
-        },
-        {
-            "PutRequest": {
-                "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Fear of the Dark"},
-                  "AlbumTitle": {"S": "Fear of the Dark Tour"},
-                  "SongYear": {"S": "1992"}
-                }
-            }
+  "Music": [
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Iron Maiden"
+          },
+          "SongTitle": {
+            "S": "Wasting Love"
+          },
+          "AlbumTitle": {
+            "S": "Fear of the Dark Live"
+          },
+          "SongYear": {
+            "S": "1992"
+          },
+          "YouTubeLink": {
+            "S": "https://www.youtube.com/watch?v=SbWeP7KkeCU"
+          }
         }
-      ]
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Iron Maiden"
+          },
+          "SongTitle": {
+            "S": "Weekend Warrior"
+          },
+          "AlbumTitle": {
+            "S": "Fear of the Dark"
+          },
+          "SongYear": {
+            "S": "1992"
+          },
+          "YouTubeLink": {
+            "S": "https://www.youtube.com/watch?v=FOOJF_RGu4s"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "Artist": {
+            "S": "Iron Maiden"
+          },
+          "SongTitle": {
+            "S": "Fear of the Dark"
+          },
+          "AlbumTitle": {
+            "S": "Fear of the Dark Tour"
+          },
+          "SongYear": {
+            "S": "1992"
+          },
+          "YouTubeLink": {
+            "S": "https://www.youtube.com/watch?v=bePCRKGUwAY"
+          }
+        }
+      }
+    }
+  ]
 }
